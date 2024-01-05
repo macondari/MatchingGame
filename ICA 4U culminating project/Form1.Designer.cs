@@ -36,12 +36,6 @@ namespace ICA_4U_culminating_project
             this.btnFour = new System.Windows.Forms.Button();
             this.btnFive = new System.Windows.Forms.Button();
             this.btnSix = new System.Windows.Forms.Button();
-            this.btnSeven = new System.Windows.Forms.Button();
-            this.btnEight = new System.Windows.Forms.Button();
-            this.btnNine = new System.Windows.Forms.Button();
-            this.btnTen = new System.Windows.Forms.Button();
-            this.btnEleven = new System.Windows.Forms.Button();
-            this.btnTwelve = new System.Windows.Forms.Button();
             this.btnThirteen = new System.Windows.Forms.Button();
             this.btnFourteen = new System.Windows.Forms.Button();
             this.btnFifteen = new System.Windows.Forms.Button();
@@ -51,7 +45,6 @@ namespace ICA_4U_culminating_project
             this.lblTest = new System.Windows.Forms.Label();
             this.lbllabel = new System.Windows.Forms.Label();
             this.lblGuess = new System.Windows.Forms.Label();
-            this.lblTry = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnOne
@@ -119,72 +112,6 @@ namespace ICA_4U_culminating_project
             this.btnSix.TabIndex = 5;
             this.btnSix.UseVisualStyleBackColor = false;
             this.btnSix.Click += new System.EventHandler(this.btnSix_Click);
-            // 
-            // btnSeven
-            // 
-            this.btnSeven.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnSeven.Location = new System.Drawing.Point(656, 352);
-            this.btnSeven.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnSeven.Name = "btnSeven";
-            this.btnSeven.Size = new System.Drawing.Size(108, 105);
-            this.btnSeven.TabIndex = 6;
-            this.btnSeven.UseVisualStyleBackColor = false;
-            this.btnSeven.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // btnEight
-            // 
-            this.btnEight.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnEight.Location = new System.Drawing.Point(772, 352);
-            this.btnEight.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnEight.Name = "btnEight";
-            this.btnEight.Size = new System.Drawing.Size(108, 105);
-            this.btnEight.TabIndex = 7;
-            this.btnEight.UseVisualStyleBackColor = false;
-            this.btnEight.Click += new System.EventHandler(this.btnEight_Click);
-            // 
-            // btnNine
-            // 
-            this.btnNine.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnNine.Location = new System.Drawing.Point(422, 448);
-            this.btnNine.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnNine.Name = "btnNine";
-            this.btnNine.Size = new System.Drawing.Size(108, 105);
-            this.btnNine.TabIndex = 8;
-            this.btnNine.UseVisualStyleBackColor = false;
-            this.btnNine.Click += new System.EventHandler(this.btnNine_Click);
-            // 
-            // btnTen
-            // 
-            this.btnTen.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnTen.Location = new System.Drawing.Point(538, 448);
-            this.btnTen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnTen.Name = "btnTen";
-            this.btnTen.Size = new System.Drawing.Size(108, 105);
-            this.btnTen.TabIndex = 9;
-            this.btnTen.UseVisualStyleBackColor = false;
-            this.btnTen.Click += new System.EventHandler(this.btnTen_Click);
-            // 
-            // btnEleven
-            // 
-            this.btnEleven.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnEleven.Location = new System.Drawing.Point(656, 448);
-            this.btnEleven.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnEleven.Name = "btnEleven";
-            this.btnEleven.Size = new System.Drawing.Size(108, 105);
-            this.btnEleven.TabIndex = 10;
-            this.btnEleven.UseVisualStyleBackColor = false;
-            this.btnEleven.Click += new System.EventHandler(this.btnElelven_Click);
-            // 
-            // btnTwelve
-            // 
-            this.btnTwelve.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnTwelve.Location = new System.Drawing.Point(772, 448);
-            this.btnTwelve.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnTwelve.Name = "btnTwelve";
-            this.btnTwelve.Size = new System.Drawing.Size(108, 105);
-            this.btnTwelve.TabIndex = 11;
-            this.btnTwelve.UseVisualStyleBackColor = false;
-            this.btnTwelve.Click += new System.EventHandler(this.btnTwelve_Click);
             // 
             // btnThirteen
             // 
@@ -288,23 +215,12 @@ namespace ICA_4U_culminating_project
             this.lblGuess.TabIndex = 20;
             this.lblGuess.Click += new System.EventHandler(this.lblGuess_Click);
             // 
-            // lblTry
-            // 
-            this.lblTry.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.lblTry.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblTry.Location = new System.Drawing.Point(884, 35);
-            this.lblTry.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblTry.Name = "lblTry";
-            this.lblTry.Size = new System.Drawing.Size(190, 87);
-            this.lblTry.TabIndex = 21;
-            // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(1200, 692);
-            this.Controls.Add(this.lblTry);
             this.Controls.Add(this.lblGuess);
             this.Controls.Add(this.lbllabel);
             this.Controls.Add(this.lblTest);
@@ -314,12 +230,6 @@ namespace ICA_4U_culminating_project
             this.Controls.Add(this.btnFifteen);
             this.Controls.Add(this.btnFourteen);
             this.Controls.Add(this.btnThirteen);
-            this.Controls.Add(this.btnTwelve);
-            this.Controls.Add(this.btnEleven);
-            this.Controls.Add(this.btnTen);
-            this.Controls.Add(this.btnNine);
-            this.Controls.Add(this.btnEight);
-            this.Controls.Add(this.btnSeven);
             this.Controls.Add(this.btnSix);
             this.Controls.Add(this.btnFive);
             this.Controls.Add(this.btnFour);
@@ -341,12 +251,6 @@ namespace ICA_4U_culminating_project
         private System.Windows.Forms.Button btnFour;
         private System.Windows.Forms.Button btnFive;
         private System.Windows.Forms.Button btnSix;
-        private System.Windows.Forms.Button btnSeven;
-        private System.Windows.Forms.Button btnEight;
-        private System.Windows.Forms.Button btnNine;
-        private System.Windows.Forms.Button btnTen;
-        private System.Windows.Forms.Button btnEleven;
-        private System.Windows.Forms.Button btnTwelve;
         private System.Windows.Forms.Button btnThirteen;
         private System.Windows.Forms.Button btnFourteen;
         private System.Windows.Forms.Button btnFifteen;
@@ -356,7 +260,6 @@ namespace ICA_4U_culminating_project
         private System.Windows.Forms.Label lblTest;
         private System.Windows.Forms.Label lbllabel;
         private System.Windows.Forms.Label lblGuess;
-        private System.Windows.Forms.Label lblTry;
     }
 }
 

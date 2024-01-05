@@ -30,7 +30,7 @@ namespace ICA_4U_culminating_project
         {
             //shuffle array
             Random rnd = new Random();
-            lblTry.Text = Convert.ToString(Convert.ToInt16(18/5.0));
+            
 
             for (int i = 0; i < 3; i++)
             {
