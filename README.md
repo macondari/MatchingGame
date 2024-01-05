@@ -1,2 +1,2 @@
 # MatchingGame
-This game is a memory game the requires the user to match cards
+This is a Windows Forms App for a game that requires the user to match cards
